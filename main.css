@@ -419,6 +419,7 @@ body h1 {
     .subitem2 {
         width: 100%;
         align-items: center;
+        justify-content:center;
     }
 
     .subitem_image {
