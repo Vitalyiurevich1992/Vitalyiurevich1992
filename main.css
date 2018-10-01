@@ -411,4 +411,22 @@ body h1 {
         justify-content: space-around;
     }
 
+    .her {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subitem2 {
+        width: 100%;
+        align-items: center;
+    }
+
+    .subitem_image {
+        width: 25%;
+    }
+
+    .real_estate_re {
+        align-items: center;
+    }
+
 }
