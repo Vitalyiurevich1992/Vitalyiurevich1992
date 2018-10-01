@@ -1,0 +1,414 @@
+body {
+    background-color: #eeeeee;
+}
+
+.header_image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+
+.header_main_flex {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header_first_flex {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 48%;
+}
+
+.header_second_flex {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    margin-left: 15%;
+}
+.header_first_flex p {
+    position: relative;
+    color: white;
+    font-size: 23px;
+}
+
+.header_second_flex p {
+    position: relative;
+    color: white;
+    font-size: 18px;
+}
+.header_second_flex h1 {
+    position: relative;
+    color: white;
+    font-size: 23px;
+}
+
+.header_button {
+    position: relative;
+    width: 140px;
+    height: 32px;
+    border: 3px solid rgb(166, 204, 215);
+    border-radius: 15.5px;
+    background-color: transparent;
+}
+
+.header_button_strela {
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+
+.header_button_flex {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.main_flex {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.second_item {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.subitem {
+    align-items: center;
+    border:1px solid #ccccccb8;
+    background-color: transparent;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    z-index: 99;
+}
+
+.subitem_image {
+    width:50%;
+    height:auto;
+}
+
+.main_flex_button {
+    position: relative;
+    width: 155px;
+    height: 32px;
+    border:2px solid #ccccccb8;
+    border-radius: 15.5px;
+    background-color: rgba(63, 127, 187, 0.707);
+}
+.main_flex_button_flex {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.main_flex_2 {
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.second_item_2 {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_flex_background {
+    width:100%; 
+    height:auto;
+    margin-top:-600px;
+}
+.main_flex_carousel_buttons {
+    width:50px;
+    height:50px;
+    border:1px solid #616161;
+    border-radius: 25px;
+    background-color: white;
+    align-items:center;
+}
+
+.main_flex_carousel_buttons_image {
+    width:100%;
+    height:auto;
+}
+
+.subitem2 {
+    border:2px solid #eeeeee;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    z-index: 99;
+}
+
+.her {
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main3_background{
+    position: relative;
+    width:100%;
+    height:auto;
+}
+
+.second_item_3 {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subitem3 {
+
+    border:2px solid #ccccccb8;
+    background-color: transparent;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    z-index: 99;
+}
+
+.main_flex_3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contacts {
+    margin-bottom: 15px;
+    border:1px solid white;
+    border-radius:16px;
+    height:32px;
+}
+
+.contacts::placeholder {
+    padding-left: 23px;
+    font-size: 23px;
+}
+
+.about {
+
+    border:1px solid white;
+    border-radius:16px;
+    height:132px;
+}
+
+.about::placeholder {
+    padding-left: 23px;
+    font-size: 23px;
+    padding-top: 23px;
+}
+
+
+.submit_button {
+    position: relative;
+    width: 175px;
+    height: 56px;
+    border: 3px solid #ccccccb8;
+    border-radius: 15.5px;
+    background-color: rgba(63, 127, 187, 0.707);
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.submit_button_strela {
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+
+.submit_button_flex {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 25px;
+    width: 100%;
+    align-items: center;
+ 
+}
+
+.submit_button h1 {
+    color:white;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    justify-content: space-between;
+    z-index:99;
+}
+
+.real_estate{
+    display:inline-flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.re_flex{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width:12%;
+}
+.re_flex p {
+    margin-top: 7px;
+}
+.re_flex h1 {
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 23px;
+    }
+.re_contact{
+    margin-top: 25px;
+    display:inline-flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.re_contact_flex{
+    display:inline-flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width: 15%;
+}
+
+
+.real_estate_re {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:1024px) {
+
+body p {
+    font-size:14px;
+}
+
+body h1 {
+    font-size:14px;
+}
+
+.header_first_flex p {
+    font-size: 14px;
+}
+
+.header_second_flex p {
+    font-size: 14px;
+}
+.header_second_flex h1 {
+    position: relative;
+    color: white;
+    font-size: 23px;
+}
+
+.header_second_flex {
+    margin-left: 12%;
+}
+
+.second_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subitem {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:768px) {
+
+    .header_main_flex {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .header_first_flex {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+        width: 15%;
+    }
+
+    .header_second_flex {
+        margin-left: 0%;
+        width: 15%;
+    }
+
+    .second_item_3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .subitem3 {
+        width: 100%;
+    }
+
+    .real_estate {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .real_estate_re {
+        display: inline-flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+}
