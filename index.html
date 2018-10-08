@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="normalize.css" />
-    <script src="main.js"></script>
+
 </head>
 
 <body>
@@ -87,29 +87,29 @@
     <div class="main_flex_2">
         <h1>Clients</h1>
         <div class="second_item_2">
-            <button class="main_flex_carousel_buttons">
+            <button onclick="giveliveback()" class="main_flex_carousel_buttons">
                 <img class="main_flex_carousel_buttons_image" src="strela2.png">
             </button>
             <div class="her">
                 <div class="subitem2">
-                    <img class="subitem_image" src="woman.png">
-                    <p>I love my job but I love my family. Being away from family is very hard. It is not something I want my
+                    <img class="subitem_image" id="image1" src="woman.png">
+                    <p id="text1">I love my job but I love my family. Being away from family is very hard. It is not something I want my
                         family and I to endure for the next 20 years. But it is something I feel obligated to do for a short
                         period of my life. It is a debt I owe to those before and after me.</p>
-                    <h1>Los Angeles</h1>
-                    <p>Hillary Flex</p>
+                    <h1 id="city1">Los Angeles</h1>
+                    <p id="name1">Hillary Flex</p>
                 </div>
 
                 <div class="subitem2">
-                    <img class="subitem_image" src="man.png">
-                    <p>A great to get your life started and prepare you for any challenge and any job anywhere in the world!
+                    <img class="subitem_image" id="image2" src="man.png">
+                    <p id="text2">A great to get your life started and prepare you for any challenge and any job anywhere in the world!
                         Overall great experience, I would definitely recommend anyone to serve at least 4 years!</p>
-                    <h1>California</h1>
-                    <p>Jhon Button</p>
+                    <h1 id="city2">California</h1>
+                    <p id="name2">Jhon Button</p>
                 </div>
             </div>
 
-            <button class="main_flex_carousel_buttons">
+            <button onclick="givelivenext()" class="main_flex_carousel_buttons">
                 <img class="main_flex_carousel_buttons_image" src="strela1.png">
             </button>
         </div>
@@ -215,7 +215,7 @@
         </div>
 
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
