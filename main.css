@@ -8,6 +8,11 @@ body {
     height: auto;
 }
 
+.test1 {
+    font-family: 'Pacifico', cursive;
+
+}
+
 
 .header_main_flex {
     position: relative;
